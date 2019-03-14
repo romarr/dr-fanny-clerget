@@ -1,0 +1,42 @@
+---
+---
+
+@import 'variables';
+@import 'bootstrap/bootstrap';
+@import 'bootswatch';
+@import 'fontawesome/fontawesome';
+@import 'fontawesome/solid';
+@import 'fontawesome/brands';
+@import 'fontawesome/regular';
+
+#dismiss {
+    position: absolute;
+    /* top right corner of the sidebar */
+    top: 10px;
+    right: 10px;
+}
+
+#toggle {
+    position: absolute;
+    /* top right corner of the sidebar */
+    top: -20px;
+}
+
+#header-container {
+    background-color: rgba($color: $white, $alpha: 0.5);
+}
+
+#content-col {
+    min-height: 100%;
+}
+
+#text-header {
+    color: $light;
+}
+
+body {
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

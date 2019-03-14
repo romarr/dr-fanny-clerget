@@ -1,0 +1,35 @@
+# Site settings
+title: Cabinet des Docteurs CLERGET et SCIULARA
+email: contact@toubib.com
+slogan1: Pratique de l'Orthodontie à Solliès-Pont
+slogan2: Au service de l'approvisionnement en bois
+permalink: /:categories/:title.html
+description: > # this means to ignore newlines until "baseurl:"
+  L'orthodontie, ou orthopédie dento-faciale, concerne les traitements qui ont pour objectif de modifier la position des dents et des mâchoires. Ces traitements, qui s'adressent aux enfants comme aux adultes, permettent de garantir une santé bucco-dentaire optimale et un sourire harmonieux.  
+  Pour votre confort et votre bien être, le cabinet des Docteurs CLERGET et SCIULARA, orthodontistes à Solliès-Pont met à votre disposition les technologies les plus modernes pour un traitement discret et efficace.
+
+baseurl: "/toubib" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+
+# Gems et extensions
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-paginate
+exclude:
+- Dockerfile
+
+collections_dir: collections
+
+collections:
+  actus:
+    output: true
+    permalink: /actualites/:title
+  
+sass:
+  sass_dir: css
+  style: compressed

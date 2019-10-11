@@ -29,10 +29,10 @@ collections:
           - {label: 'Adresse', name: 'address', widget: 'string'}
           - {label: 'Téléphone', name: 'tel', widget: 'string'}
           - {label: 'E-Mail', name: 'email', widget: 'string'}
-          - {label: 'Horaires', name: 'table', widget: 'text'}
+          - {label: 'Horaires', hint: 'Ajouter deux espaces en fin de ligne pour faire un saut de ligne', name: 'table', widget: 'text'}
       - label: 'Liens'
-        name: 'links'
-        file: '_data/links.yml'
+        name: 'extlinks'
+        file: '_data/extlinks.yml'
         fields:
           - {label: 'Titre', name: 'title', widget: 'string'}
           - {label: 'URL', name: 'url', widget: 'string'}

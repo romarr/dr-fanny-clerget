@@ -34,5 +34,9 @@ collections:
         name: 'extlinks'
         file: '_data/extlinks.yml'
         fields:
-          - {label: 'Titre', name: 'title', widget: 'string'}
-          - {label: 'URL', name: 'url', widget: 'string'}
+          - label: 'Lien'
+            name: 'links'
+            widget: 'list'
+            fields:
+              - {label: 'Titre', name: 'title', widget: 'string'}
+              - {label: 'URL', name: 'url', widget: 'string'}

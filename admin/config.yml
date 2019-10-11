@@ -19,3 +19,20 @@ collections:
       - {label: 'Menu', hint: 'Lien dans la barre de menu (oui/non)', name: 'menu', widget: 'boolean'}
       - {label: 'Index', hint: 'Ordre dans la barre de menu (1 à x)', name: 'index', widget: 'number'}
       - {label: 'Contenu', name: 'body', widget: 'markdown'}
+  - name: 'data'
+    label: 'Données'
+    files:
+      - label: 'Contacts'
+        name: 'contacts'
+        file: '_data/contacts.yml'
+        fields:
+          - {label: 'Adresse', name: 'address', widget: 'string'}
+          - {label: 'Téléphone', name: 'tel', widget: 'string'}
+          - {label: 'E-Mail', name: 'email', widget: 'string'}
+          - {label: 'Horaires', name: 'table', widget: 'text'}
+      - label: 'Liens'
+        name: 'links'
+        file: '_data/links.yml'
+        fields:
+          - {label: 'Titre', name: 'title', widget: 'string'}
+          - {label: 'URL', name: 'url', widget: 'string'}

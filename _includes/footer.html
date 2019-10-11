@@ -1,13 +1,26 @@
-<footer class="footer fixed-bottom pt-2 pb-4 bg-secondary">
+<footer class="footer pb-4 bg-secondary">
+    <hr>
     <div class="container">
-        <div class="row">
+        <div class="row text-center">
             <div class="col">
-                <h4>Adresse</h4>
-                <p></p>
+                <h4>Contact</h4>
+                <ul class="list-unstyled">
+                    <li>{{site.data.contacts.address}}</li>
+                    <li>{{site.data.contacts.tel}}</li>
+                    <li>{{site.data.contacts.email}}</li>
+                </ul>
             </div>
-            <div class="col-3">
+            <div class="col">
+                <h4>Horaires</h4>
+                {{site.data.contacts.table | markdownify}}
+            </div>
+            <div class="col">
                 <h4>Liens</h4>
-                <p></p>
+                <ul class="list-unstyled">
+                    {%- for link in site.data.links -%}
+                    <li><a href="{{link.url}}">{{link.title}}</a></li>
+                    {%- endfor -%}
+                </ul>
             </div>
         </div>
     </div>

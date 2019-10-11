@@ -26,7 +26,7 @@ collections:
         name: 'contacts'
         file: '_data/contacts.yml'
         fields:
-          - {label: 'Adresse', name: 'address', widget: 'string'}
+          - {label: 'Adresse', hint: 'Ajouter deux espaces en fin de ligne pour faire un saut de ligne', name: 'address', widget: 'text'}
           - {label: 'Téléphone', name: 'tel', widget: 'string'}
           - {label: 'E-Mail', name: 'email', widget: 'string'}
           - {label: 'Horaires', hint: 'Ajouter deux espaces en fin de ligne pour faire un saut de ligne', name: 'table', widget: 'text'}

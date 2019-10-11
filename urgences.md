@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Urgences & Conseils
-menu: main
+menu: true
 index: 6
 ---
 

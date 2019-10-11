@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: romarr/toubib # Path to your GitHub repository
+  branch: master # Branch to update (optional; defaults to master)
+  base_url: https://rsoauth.herokuapp.com
+
+
+media_folder: "img/uploads" # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    folder: '/'
+    create: true
+    fields:
+      - {label: 'Titre', hint: 'Titre dans la barre de menu', name: 'title', widget: 'string'}
+      - {label: 'Sous-titre', hint: 'Titre affiché sur la page', name: 'subtitle', widget: 'string'}
+      - {label: 'Description', hint: 'Résumé de la page pour le référencement', name: 'desc', widget: 'string', required: false}
+      - {label: 'Menu', hint: 'Lien dans la barre de menu (oui/non)', name: 'menu', widget: 'boolean'}
+      - {label: 'Index', hint: 'Ordre dans la barre de menu (1 à x)', name: 'index', widget: 'number'}
+      - {label: 'Contenu', name: 'body', widget: 'markdown'}

@@ -1,12 +1,11 @@
 ---
 layout: default
 title: Accès
+subtitle: Accès au cabinet
 description: 
-menu: main
+menu: true
 index: 2
 ---
-
-### Accès au cabinet
 
 ##### Adresse
 1, avenue de la Liberté - "Le Liberté" Bat. A  

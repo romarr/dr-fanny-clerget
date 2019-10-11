@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Honoraires
-menu: main
+menu: true
 index: 4
 ---
 

@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Cabinet
-menu: main
+subtitle: Cabinet des Docteurs CLERGET et SCIULARA
+menu: true
 index: 1
 ---
-
-### Cabinet des Docteurs CLERGET et SCIULARA
 
 ##### Adresse  
 1, avenue de la Liberté "Le Liberté" Bat. A  

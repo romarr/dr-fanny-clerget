@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Questions frequentes
-menu: main
+menu: true
 index: 8
 ---
 

@@ -9,6 +9,10 @@
 @import 'fontawesome/brands';
 @import 'fontawesome/regular';
 
+.bg-gray {
+    background-color: $gray-400;
+}
+
 #dismiss {
     position: absolute;
     /* top right corner of the sidebar */

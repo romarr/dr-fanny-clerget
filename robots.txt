@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dr-fanny-clerget.chirurgiens-dentistes.fr/sitemap.xml
